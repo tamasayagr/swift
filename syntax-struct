@@ -1,0 +1,18 @@
+struct chicken {
+
+  var gear = 0
+
+  // method inside struct
+  func applyBrake(){
+  print("Applying Hydraulic Brakes")
+  }
+}
+
+// create an instance 
+var chicken = Car()
+
+chicken.gear = 5
+
+print("Gear Number: \(car1.gear)")
+// access method
+car1.applyBrake()
